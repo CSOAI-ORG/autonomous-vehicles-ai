@@ -1,0 +1,40 @@
+{
+  "name": "@meok-global/autonomous-vehicles-ai",
+  "version": "1.0.0",
+  "description": "Assess regulatory compliance for autonomous vehicle AI systems. Covers EU AI Act high-risk classification, UNECE WP.29, NHTSA, ISO 26262, safety validation, and liability frameworks.",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "autonomous-vehicles-ai-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.12.0"
+  },
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meok-global/mcp-servers.git",
+    "directory": "packages/autonomous-vehicles-ai"
+  },
+  "author": "MEOK AI Labs — Cyber Security Global Alliance",
+  "keywords": [
+    "mcp",
+    "ai-governance",
+    "compliance",
+    "autonomous-vehicles-ai"
+  ]
+}
